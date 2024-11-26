@@ -1,0 +1,1 @@
+To run `2_ai_image_captioner` please ensure you have [qresearch/llama-3-vision-alpha-hf](https://huggingface.co/qresearch/llama-3-vision-alpha-hf/tree/main) installed and within the `2_ai_image_captioner` directory
