@@ -1,0 +1,850 @@
+    # ****** LANDSCAPES AND ENVIRONMENTS ******
+    # ****** DESERTS ******
+    # All Below Performed on 10/19/2024
+    # ****** DESERT MOUNTAINS ******
+    scraper_0 = ImageScraperCurl(
+        path="GranularImageCategories/Landscapes-and-Environments/Deserts/DesertMountains",
+        query="Mountain Range Landscapes in the Desert",
+        tags="desert, mountains, rocky, sandy",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=12,
+        images_per_iteration=30,
+        use_flickr_api=True,
+    )
+    # ****** DESERT STRUCTURES ******
+    scraper_1 = ImageScraperCurl(
+        path="GranularImageCategories/Landscapes-and-Environments/Deserts/DesertStructures",
+        query="Ancient Desert Structures",
+        tags="desert, structure, wood, hut, carving, caves, camps",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=12,
+        images_per_iteration=30,
+        use_flickr_api=True,
+    )
+    # ****** DUNES ******
+    scraper_2 = ImageScraperCurl(
+        path="GranularImageCategories/Landscapes-and-Environments/Deserts/Dunes",
+        query="Sand Dunes in Desert Landscapes",
+        tags="dunes, desert, sandy",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=12,
+        images_per_iteration=30,
+        use_flickr_api=True,
+    )
+    # ****** ROCKY DESERTS ******
+    scraper_3 = ImageScraperCurl(
+        path="GranularImageCategories/Landscapes-and-Environments/Deserts/RockyDeserts",
+        query="Rocky desert landscape",
+        tags="desert, rocky",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=12,
+        images_per_iteration=30,
+        use_flickr_api=True,
+    )
+    # ****** SANDY AND ROCKY DESERTS ******
+    scraper_4 = ImageScraperCurl(
+        path="GranularImageCategories/Landscapes-and-Environments/Deserts/SandyAndRockyDeserts",
+        query="Rocky desert landscape",
+        tags="desert",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=50,
+        images_per_iteration=30,
+        use_flickr_api=True,
+    )
+    # ****** VEHICLES ON DUNES ******
+    scraper_5 = ImageScraperCurl(
+        path="GranularImageCategories/Landscapes-and-Environments/Deserts/VehiclesOnDunes",
+        query="Desert Dune Off-road vehicles",
+        tags="desert, dunes",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=50,
+        images_per_iteration=30,
+        use_flickr_api=True,
+    )
+    scraper_0.process_images()
+    scraper_1.process_images()
+    scraper_2.process_images()
+    scraper_3.process_images()
+    scraper_4.process_images()
+    scraper_5.process_images()
+
+    # ****** CITIES ******
+    # All Performed on 11/7/2024
+    # ****** AFRICAN CITIES ******
+    scraper_0 = ImageScraperCurl(
+        path="GranularImageCategories/Landscapes-and-Environments/Cities/AfricanCities",
+        query="cities in Africa",
+        tags="Africa, city",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=35,
+        images_per_iteration=5,
+        use_flickr_api=True,
+    )
+    # ****** ASIAN CITIES ******
+    scraper_1 = ImageScraperCurl(
+        path="GranularImageCategories/Landscapes-and-Environments/Cities/AsianCities",
+        query="cities in Asia",
+        tags="Asia, city",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=35,
+        images_per_iteration=5,
+        use_flickr_api=True,
+    )
+    # ****** MEDITERRANEAN CITIES ******
+    scraper_2 = ImageScraperCurl(
+        path="GranularImageCategories/Landscapes-and-Environments/Cities/MediterraneanCities",
+        query="cities in the Mediterranean",
+        tags="Mediterranean, city",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=35,
+        images_per_iteration=5,
+        use_flickr_api=True,
+    )
+    # ****** MIDDLE EASTERN CITIES ******
+    scraper_3 = ImageScraperCurl(
+        path="GranularImageCategories/Landscapes-and-Environments/Cities/MiddleEasternCities",
+        query="cities in the MiddleEast",
+        tags="middle east, city",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=35,
+        images_per_iteration=5,
+        use_flickr_api=True,
+    )
+    # ****** NORTH AMERICAN CITIES ******
+    scraper_4 = ImageScraperCurl(
+        path="GranularImageCategories/Landscapes-and-Environments/Cities/NorthAmericanCities",
+        query="cities in North America",
+        tags="North America, city",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=35,
+        images_per_iteration=5,
+        use_flickr_api=True,
+    )
+    # ****** SOUTH AMERICAN CITIES ******
+    scraper_5 = ImageScraperCurl(
+        path="GranularImageCategories/Landscapes-and-Environments/Cities/SouthAmericanCities",
+        query="cities in South America",
+        tags="South America, city",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=35,
+        images_per_iteration=5,
+        use_flickr_api=True,
+    )
+
+
+
+
+
+
+    # All Below Performed on 10/21/2024
+    # ****** CITY PARKS ******
+    scraper_0 = ImageScraperCurl(
+        path="GranularImageCategories/Landscapes-and-Environments/Cities/CityParks",
+        query="Parks in the City",
+        tags="park, city",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=12,
+        images_per_iteration=30,
+        use_flickr_api=True,
+    )
+    # ****** EASTERN CITIES ******
+    scraper_1 = ImageScraperCurl(
+        path="GranularImageCategories/Landscapes-and-Environments/Cities/EasternCities",
+        query="Eastern Cities in the East World",
+        tags="east, eastern, middle-east, asia, india, mediterranean, city",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=12,
+        images_per_iteration=30,
+        use_flickr_api=True,
+    )
+    # ****** PARKS OUTSIDE CITIES ******
+    scraper_2 = ImageScraperCurl(
+        path="GranularImageCategories/Landscapes-and-Environments/Cities/ParksOutsideCities",
+        query="Parks outside of the city",
+        tags="park, parks",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=12,
+        images_per_iteration=30,
+        use_flickr_api=True,
+    )
+    # ****** WESTERN CITIES ******
+    scraper_3 = ImageScraperCurl(
+        path="GranularImageCategories/Landscapes-and-Environments/Cities/WesternCities",
+        query="Cities in North America and South America",
+        tags="america, americas, north america, south america, city",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=12,
+        images_per_iteration=30,
+        use_flickr_api=True,
+    )
+
+    scraper_0.process_images()
+    scraper_1.process_images()
+    scraper_2.process_images()
+    scraper_3.process_images()
+
+    # ****** COASTLINES ******
+    # ****** BEACHES ******
+    scraper_0 = ImageScraperCurl(
+        path="GranularImageCategories/Landscapes-and-Environments/Coastlines/Beaches",
+        query="Coastline beaches",
+        tags="coastline, beach, sand",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=12,
+        images_per_iteration=30,
+        use_flickr_api=True,
+    )
+    # ****** COASTLINE TOWNS ******
+    scraper_1 = ImageScraperCurl(
+        path="GranularImageCategories/Landscapes-and-Environments/Coastlines/CoastlineTowns",
+        query="Coastline towns",
+        tags="coastline, towns",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=12,
+        images_per_iteration=30,
+        use_flickr_api=True,
+    )
+    # ****** ROCKY COASTLINES ******
+    scraper_2 = ImageScraperCurl(
+        path="GranularImageCategories/Landscapes-and-Environments/Coastlines/RockyCoastlines",
+        query="Rocky Coastlines",
+        tags="rocky, coastline",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=12,
+        images_per_iteration=30,
+        use_flickr_api=True,
+    )
+
+    scraper_0.process_images()
+    scraper_1.process_images()
+    scraper_2.process_images()
+
+    # ****** FORESTS ******
+    # All below perfformed on 10/22/2024
+    # ****** FOREST MOUNTAINS ******
+    scraper_0 = ImageScraperCurl(
+        path="GranularImageCategories/Landscapes-and-Environments/Forests/ForestMountains",
+        query="Forest mountains",
+        tags="forest, mountain",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=12,
+        images_per_iteration=30,
+        use_flickr_api=True,
+    )
+    # ****** RAIN FOREST ROADS ******
+    scraper_1 = ImageScraperCurl(
+        path="GranularImageCategories/Landscapes-and-Environments/Forests/RainForestRoads",
+        query="Rainforest roads",
+        tags="rainforest, road",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=20,
+        images_per_iteration=30,
+        use_flickr_api=True,
+    )
+    # ****** RAIN FORESTS ******
+    scraper_2 = ImageScraperCurl(
+        path="GranularImageCategories/Landscapes-and-Environments/Forests/RainForests",
+        query="Rainforest",
+        tags="rainforest",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=12,
+        images_per_iteration=30,
+        use_flickr_api=True,
+    )
+    # ****** TEMPERATE FOREST ROADS ******
+    scraper_3 = ImageScraperCurl(
+        path="GranularImageCategories/Landscapes-and-Environments/Forests/TemperateForestRoads",
+        query="Temperate Forest Roads",
+        tags="temperate, forest, road",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=12,
+        images_per_iteration=30,
+        use_flickr_api=True,
+    )
+    # ****** TEMPERATE FORESTS ******
+    scraper_4 = ImageScraperCurl(
+        path="GranularImageCategories/Landscapes-and-Environments/Forests/TemperateForests",
+        query="Leafy Forest",
+        tags="temperate, leafy, forest",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=12,
+        images_per_iteration=30,
+        use_flickr_api=True,
+    )
+    # ****** WATERFALLS ******
+    scraper_5 = ImageScraperCurl(
+        path="GranularImageCategories/Landscapes-and-Environments/Forests/Waterfalls",
+        query="Forest waterfalls",
+        tags="forest, waterfall",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=12,
+        images_per_iteration=30,
+        use_flickr_api=True,
+    )
+
+    # ****** MOUNTAINS ******
+    # ****** OFF-ROAD TRAILS ******
+    scraper_0 = ImageScraperCurl(
+        path="GranularImageCategories/Landscapes-and-Environments/Mountains/OffRoadTrails",
+        query="Off-road Mountain trails",
+        tags="off-road, mountain, vehicle, bike",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=30,
+        images_per_iteration=30,
+        use_flickr_api=True,
+    )
+    # ****** ROCKY MOUNTAINS  ******
+    scraper_1 = ImageScraperCurl(
+        path="GranularImageCategories/Landscapes-and-Environments/Mountains/RockyMountains",
+        query="Rocky mountains",
+        tags="rocky, mountain",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=12,
+        images_per_iteration=30,
+        use_flickr_api=True,
+    )
+    # ****** WALKING TRAILS ******
+    scraper_2 = ImageScraperCurl(
+        path="GranularImageCategories/Landscapes-and-Environments/Mountains/WalkingTrails",
+        query="Mountain walking trail",
+        tags="mountain, walking, trail",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=12,
+        images_per_iteration=30,
+        use_flickr_api=True,
+    )
+
+    scraper_0.process_images()
+    scraper_1.process_images()
+    scraper_2.process_images()
+    scraper_0.process_images()
+    scraper_1.process_images()
+    scraper_2.process_images()
+    scraper_3.process_images()
+    scraper_4.process_images()
+    scraper_5.process_images()
+
+    # ****** PEOPLE PORTRAITS AND EVERY DAY LIFE ******
+    All Below Performed on 11/7/2024
+    # ****** CULTURE******
+    # ****** AFRICAN CULTURE ******
+    scraper_0 = ImageScraperCurl(
+        path="GranularImageCategories/Life-and-Portraits/Culture/Africa",
+        query="African people culture",
+        tags="African, people, culture",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=35,
+        images_per_iteration=5,
+        use_flickr_api=True,
+    )
+    # ****** ASIAN CULTURE ******
+    scraper_1 = ImageScraperCurl(
+        path="GranularImageCategories/Life-and-Portraits/Culture/Asia",
+        query="Asian people culture",
+        tags="Asian, people, culture",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=35,
+        images_per_iteration=5,
+        use_flickr_api=True,
+    )
+    # ****** MEDITERRANEAN CULTURE ******
+    scraper_2 = ImageScraperCurl(
+        path="GranularImageCategories/Life-and-Portraits/Culture/Mediterranean",
+        query="Mediterranean people culture",
+        tags="Mediterranean, people, culture",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=35,
+        images_per_iteration=5,
+        use_flickr_api=True,
+    )
+    # ****** MIDDLE EASTERN CULTURE ******
+    scraper_3 = ImageScraperCurl(
+        path="GranularImageCategories/Life-and-Portraits/Culture/MiddleEast",
+        query="MiddleEastern people culture",
+        tags="MiddleEastern, people, culture",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=35,
+        images_per_iteration=5,
+        use_flickr_api=True,
+    )
+    # ****** NORTH AMERICAN CULTURE ******
+    scraper_4 = ImageScraperCurl(
+        path="GranularImageCategories/Life-and-Portraits/Culture/NorthAmerica",
+        query="North American people culture",
+        tags="North American, people, culture",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=35,
+        images_per_iteration=5,
+        use_flickr_api=True,
+    )
+    # ****** SOUTH AMERICAN CITIES ******
+    scraper_11 = ImageScraperCurl(
+        path="GranularImageCategories/Life-and-Portraits/Culture/SouthAmerica",
+        query="South American people culture",
+        tags="South American, people, culture",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=35,
+        images_per_iteration=100,
+        use_flickr_api=True,
+    )
+
+
+    scraper_0.process_images()
+    scraper_1.process_images()
+    scraper_2.process_images()
+    scraper_3.process_images()
+    scraper_4.process_images()
+    scraper_5.process_images()
+    scraper_6.process_images()
+    scraper_7.process_images()
+    scraper_8.process_images()
+    scraper_9.process_images()
+    scraper_10.process_images()
+    scraper_11.process_images()
+
+
+
+
+
+
+    # All Below Performed on 10/23/2024
+    # ****** ADULTS ******
+    # ****** ELDERS ******
+    scraper_0 = ImageScraperCurl(
+        path="GranularImageCategories/PeopleEveryDayLife-and-Portraits/Adults/Elders",
+        query="Elderly people",
+        tags="elder, old, people",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=40,
+        images_per_iteration=30,
+        use_flickr_api=True,
+    )
+    # ****** MIDDLE AGED ******
+    scraper_1 = ImageScraperCurl(
+        path="GranularImageCategories/PeopleEveryDayLife-and-Portraits/Adults/MiddleAged",
+        query="Middle aged people",
+        tags="middleaged, middle aged, people",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=30,
+        images_per_iteration=30,
+        use_flickr_api=True,
+    )
+    # ****** YOUNG ******
+    scraper_2 = ImageScraperCurl(
+        path="GranularImageCategories/PeopleEveryDayLife-and-Portraits/Adults/Young",
+        query="Young adult people",
+        tags="young adult, people",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=40,
+        images_per_iteration=30,
+        use_flickr_api=True,
+    )
+    # ****** CHILDREN ******
+    # ****** BABIES ******
+    scraper_3 = ImageScraperCurl(
+        path="GranularImageCategories/PeopleEveryDayLife-and-Portraits/Children/Babies",
+        query="Babies",
+        tags="babies",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=20,
+        images_per_iteration=30,
+        use_flickr_api=True,
+    )
+    # ****** PRE TEENS ******
+    scraper_4 = ImageScraperCurl(
+        path="GranularImageCategories/PeopleEveryDayLife-and-Portraits/Children/PreTeens",
+        query="Pre-Teen Children",
+        tags="pre teen, preteen, children",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=40,
+        images_per_iteration=30,
+        use_flickr_api=True,
+    )
+    # ****** TEENAGERS ******
+    scraper_5 = ImageScraperCurl(
+        path="GranularImageCategories/PeopleEveryDayLife-and-Portraits/Children/Teenagers",
+        query="Teenaged people",
+        tags="teenaged",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=40,
+        images_per_iteration=30,
+        use_flickr_api=True,
+    )
+    # ****** TODDLERS ******
+    scraper_6 = ImageScraperCurl(
+        path="GranularImageCategories/PeopleEveryDayLife-and-Portraits/Children/Toddlers",
+        query="Toddlers",
+        tags="toddler",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=40,
+        images_per_iteration=30,
+        use_flickr_api=True,
+    )
+    # ****** CHILDREN AND ADULTS ******
+    # ****** BABIES AND PARENTS ******
+    scraper_7 = ImageScraperCurl(
+        path="GranularImageCategories/PeopleEveryDayLife-and-Portraits/ChildrenAndAdults/BabiesAndParents",
+        query="Babies with parents",
+        tags="baby, parent",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=40,
+        images_per_iteration=30,
+        use_flickr_api=True,
+    )
+    # ****** CHILDREN AND PARENTS ******
+    scraper_8 = ImageScraperCurl(
+        path="GranularImageCategories/PeopleEveryDayLife-and-Portraits/ChildrenAndAdults/ChildrenAndParents",
+        query="Children with parents",
+        tags="parents, children, family",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=40,
+        images_per_iteration=30,
+        use_flickr_api=True,
+    )
+    # ****** SOCIETY ******
+    # ****** MARKETS ******
+    scraper_9 = ImageScraperCurl(
+        path="GranularImageCategories/PeopleEveryDayLife-and-Portraits/Society/Markets",
+        query="Markets",
+        tags="market",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=40,
+        images_per_iteration=30,
+        use_flickr_api=True,
+    )
+    # ****** SPORTS ******
+    # ****** BOXING ******
+    scraper_10 = ImageScraperCurl(
+        path="GranularImageCategories/PeopleEveryDayLife-and-Portraits/Society/Sports/Boxing",
+        query="Boxing",
+        tags="sports, boxing",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=40,
+        images_per_iteration=30,
+        use_flickr_api=True,
+    )
+    # ****** CLIMBING ******
+    scraper_11 = ImageScraperCurl(
+        path="GranularImageCategories/PeopleEveryDayLife-and-Portraits/Society/Sports/Climbing",
+        query="Climbing",
+        tags="sports, climbing",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=40,
+        images_per_iteration=30,
+        use_flickr_api=True,
+    )
+    # ****** HORSE RIDING ******
+    scraper_12 = ImageScraperCurl(
+        path="GranularImageCategories/PeopleEveryDayLife-and-Portraits/Society/Sports/HorseRiding",
+        query="Horseback riding",
+        tags="sports, horseriding, horseback",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=40,
+        images_per_iteration=30,
+        use_flickr_api=True,
+    )
+    # ****** SURFING ******
+    scraper_13 = ImageScraperCurl(
+        path="GranularImageCategories/PeopleEveryDayLife-and-Portraits/Society/Sports/Surfing",
+        query="Surfing",
+        tags="sports, surfing",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=40,
+        images_per_iteration=30,
+        use_flickr_api=True,
+    )
+
+    scraper_0.process_images()
+    scraper_1.process_images()
+    scraper_2.process_images()
+    scraper_3.process_images()
+    scraper_4.process_images()
+    scraper_5.process_images()
+    scraper_6.process_images()
+    scraper_7.process_images()
+    scraper_8.process_images()
+    scraper_9.process_images()
+    scraper_10.process_images()
+    scraper_11.process_images()
+    scraper_12.process_images()
+    scraper_13.process_images()
+
+    # All Below Performed on 10/24/2024
+    # ****** PEOPLe IN WAR-TORN SOCIETY ******
+    # ****** AFTERMATH ******
+    # ****** MIDDLE EAST ******
+    scraper_0 = ImageScraperCurl(
+        path="GranularImageCategories/PeopleWarTornScenery/Aftermath/MiddleEast",
+        query="Mideast conflicts",
+        tags="",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=50,
+        images_per_iteration=25,
+        use_flickr_api=True,
+    )
+    scraper_0.process_images()
+    # ****** EAST EUROPE ******
+    scraper_1 = ImageScraperCurl(
+        path="GranularImageCategories/PeopleWarTornScenery/Aftermath/EasternEurope",
+        query="UNDP Ukraine - War in Ukraine",
+        tags="",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=32,
+        images_per_iteration=25,
+        use_flickr_api=True,
+    )
+    scraper_1.process_images()
+
+    # ****** EXPLOSIONS ******
+    # ****** MIDDLE EAST ******
+    scraper_2 = ImageScraperCurl(
+        path="GranularImageCategories/PeopleWarTornScenery/Explosions/MiddleEast",
+        query="smoke",
+        tags="Gaza, MIDEAST",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=50,
+        images_per_iteration=25,
+        use_flickr_api=True,
+    )
+    scraper_2.process_images()
+
+    # ****** RESCUES ******
+    # ****** MIDDLE EAST ******
+    scraper_3 = ImageScraperCurl(
+        path="GranularImageCategories/PeopleWarTornScenery/Rescues/MiddleEast",
+        query="#GazaUnderAttack",
+        tags="rescue, rescuer, rescuers",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=50,
+        images_per_iteration=25,
+        use_flickr_api=True,
+    )
+    scraper_3.process_images()
+
+    # ****** SOLDIERS ******
+    # ****** EASTERN EUROPE ******
+    scraper_4 = ImageScraperCurl(
+        path="GranularImageCategories/PeopleWarTornScenery/Soldiers/EasternEurope",
+        query="Ukranian soldiers",
+        tags="",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=32,
+        images_per_iteration=25,
+        use_flickr_api=True,
+    )
+    scraper_4.process_images()
+    # ****** MIDDLE EAST ******
+    scraper_5 = ImageScraperCurl(
+        path="GranularImageCategories/PeopleWarTornScenery/Soldiers/MiddleEast",
+        query="MIDEAST soldiers",
+        tags="",
+        google_cse_api_key="AIzaSyDXdbk-_L6CyC35rMQkSvgyEAh3k4CzX4U",
+        custom_search_engine_id="e0655c55ee6364ac3",
+        flickr_api_key="80d9ce686ba9ec0eeb3406acdc533b53",
+        image_threshold=32,
+        images_per_iteration=25,
+        use_flickr_api=True,
+    )
+    scraper_5.process_images()
+
+    # All Below Performed on 10/25/2024
+    # ****** PHOTOMICROGRAPHS ******
+    # ****** BACTERIA ****** dONE
+    # DAS+4tag_Trial2 of https://doi.org/10.17867/10000151b - https://www.ncbi.nlm.nih.gov/pubmed/32808926
+    # https://phil.cdc.gov/Details.aspx?pid=22464
+    # https://phil.cdc.gov/Details.aspx?pid=23046
+    # https://phil.cdc.gov/Details.aspx?pid=23047
+    # https://phil.cdc.gov/Details.aspx?pid=23048
+    # https://phil.cdc.gov/Details.aspx?pid=23049
+    # https://phil.cdc.gov/Details.aspx?pid=23050
+    # https://phil.cdc.gov/Details.aspx?pid=23051
+    # https://phil.cdc.gov/Details.aspx?pid=23052
+    # https://phil.cdc.gov/Details.aspx?pid=23055
+    # https://phil.cdc.gov/Details.aspx?pid=23056
+    # https://phil.cdc.gov/Details.aspx?pid=23062
+    # https://phil.cdc.gov/Details.aspx?pid=23063
+    # https://phil.cdc.gov/Details.aspx?pid=23117
+    # https://phil.cdc.gov/Details.aspx?pid=23151
+    # https://phil.cdc.gov/Details.aspx?pid=23152
+    # https://phil.cdc.gov/Details.aspx?pid=23153
+    # https://phil.cdc.gov/Details.aspx?pid=23154
+    # https://phil.cdc.gov/Details.aspx?pid=29916
+    # https://phil.cdc.gov/Details.aspx?pid=29917
+    # https://phil.cdc.gov/Details.aspx?pid=29918
+    # https://phil.cdc.gov/Details.aspx?pid=29922
+    # https://phil.cdc.gov/Details.aspx?pid=29923
+
+    # ****** CELLS ******
+    # ****** CANCER CELLS ****** Done
+    # https://bbbc.broadinstitute.org/BBBC001 - https://www.cell.com/cell/fulltext/S0092-8674(06)00238-8?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867406002388%3Fshowall%3Dtrue
+    # https://bbbc.broadinstitute.org/BBBC006
+    # https://bbbc.broadinstitute.org/BBBC018 - https://www.cell.com/cell/fulltext/S0092-8674(06)00238-8?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867406002388%3Fshowall%3Dtrue
+
+    # ****** HEALTHY CELLS ****** Done
+    # https://bbbc.broadinstitute.org/BBBC009
+    # AT1G02730, AT1G05570 of https://idr.openmicroscopy.org/webclient/?show=project-201 - https://www.ncbi.nlm.nih.gov/pubmed/27212401
+    # Diplophyllum taxifolium https://doi.org/10.17867/10000183 - https://www.ncbi.nlm.nih.gov/pubmed/36195605
+    # Scapania mucronata https://doi.org/10.17867/10000183 - https://www.ncbi.nlm.nih.gov/pubmed/36195605
+
+    # ****** FUNGI ****** Done
+    # https://phil.cdc.gov/Details.aspx?pid=10964
+    # https://phil.cdc.gov/Details.aspx?pid=10966
+    # https://phil.cdc.gov/Details.aspx?pid=12642
+    # https://phil.cdc.gov/Details.aspx?pid=14658
+    # https://phil.cdc.gov/Details.aspx?pid=15105
+    # https://phil.cdc.gov/Details.aspx?pid=15424
+
+    # https://phil.cdc.gov/Details.aspx?pid=16441
+    # https://phil.cdc.gov/Details.aspx?pid=16442
+    # https://phil.cdc.gov/Details.aspx?pid=16631
+    # https://phil.cdc.gov/Details.aspx?pid=16727
+    # https://phil.cdc.gov/Details.aspx?pid=17274
+    # https://phil.cdc.gov/Details.aspx?pid=18155
+    # https://phil.cdc.gov/Details.aspx?pid=21013
+    # https://phil.cdc.gov/Details.aspx?pid=21198
+    # https://phil.cdc.gov/Details.aspx?pid=22045
+    # https://phil.cdc.gov/Details.aspx?pid=22048
+    # https://phil.cdc.gov/Details.aspx?pid=23084
+    # https://phil.cdc.gov/Details.aspx?pid=2919
+    # https://phil.cdc.gov/Details.aspx?pid=2922
+    # https://phil.cdc.gov/Details.aspx?pid=2949
+    # https://phil.cdc.gov/Details.aspx?pid=3780
+    # https://phil.cdc.gov/Details.aspx?pid=3781
+    # https://phil.cdc.gov/Details.aspx?pid=3957
+    # https://phil.cdc.gov/Details.aspx?pid=3958
+    # https://phil.cdc.gov/Details.aspx?pid=3960
+    # https://phil.cdc.gov/Details.aspx?pid=3962
+    # https://phil.cdc.gov/Details.aspx?pid=3963
+    # https://phil.cdc.gov/Details.aspx?pid=8394
+    # https://phil.cdc.gov/Details.aspx?pid=9857
+    # https://phil.cdc.gov/Details.aspx?pid=4338
+    # https://phil.cdc.gov/Details.aspx?pid=14588
+    # https://phil.cdc.gov/Details.aspx?pid=22255
+    # https://phil.cdc.gov/Details.aspx?pid=29836
+
+    # https://www.iaqsg.com/wp-content/uploads/2.jpg
+    # https://www.iaqsg.com/wp-content/uploads/3.jpg
+    # https://www.iaqsg.com/wp-content/uploads/4.jpg
+    # https://www.iaqsg.com/wp-content/uploads/5.jpg
+    # https://www.iaqsg.com/wp-content/uploads/9.jpg
+    # https://www.iaqsg.com/wp-content/uploads/10.jpg
+    # https://www.iaqsg.com/wp-content/uploads/11.jpg
+    # https://www.iaqsg.com/wp-content/uploads/14.jpg
+    # https://www.iaqsg.com/wp-content/uploads/71.jpg
+
+
+    # ****** PARASITES ****** Done
+    # https://bbbc.broadinstitute.org/BBBC010
+    # https://bbbc.broadinstitute.org/BBBC041
+
+    # ****** VIRUSES ****** Done
+    # Zb_BSF019089 of https://doi.org/10.17867/10000179b - (No PubMed ID given)
+    # BSF018307-4D of https://idr.openmicroscopy.org/webclient/?show=screen-2405 - https://www.ncbi.nlm.nih.gov/pubmed/32788590
+    # BSF019243-1A of https://doi.org/10.17867/10000179e - (No PubMed ID given)
+    # preScreen of https://doi.org/10.17867/10000180a - (No PubMed ID given)

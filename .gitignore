@@ -1,0 +1,10 @@
+.vscode
+venv
+
+__pycache__
+cache
+.env
+
+AllScrapedImages
+GranularImageCategories
+AI
